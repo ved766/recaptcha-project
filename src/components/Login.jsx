@@ -40,7 +40,7 @@ const Login = () => {
         if (formData.password != 'admin123') return;
         if (!formData.recaptchaVerified) return;
 
-        alert('Login Successful')
+       navigate('/')
     }
 
     return (
